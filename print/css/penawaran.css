@@ -1,0 +1,46 @@
+html { font-size:100%; }
+body { 
+    font-family: "Arial Narrow", Arial, sans-serif ;
+    margin: 0;
+    background-color: #ddd;
+}
+.bodysp {
+    background-color: white;
+}
+.contain {
+    margin: 0 auto;
+    width: 75%;
+}
+.col-10 {
+    float: left;
+    width: 10%;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+}
+.col-num {
+    width: 20%;
+    text-align: right;
+    float: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.m25 {
+	margin-left: 6em;
+}
+.m5{
+    margin-left: 5%;
+}

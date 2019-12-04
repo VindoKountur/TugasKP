@@ -1,0 +1,57 @@
+.atas1 {
+	height: 70px;
+	width: 720px;
+	margin: 0 auto;
+}
+.atas1 .atas11 {
+	font-size: 20px;
+}
+.atas1 .atas12 {
+
+}
+.atas2 {
+	height: 100px; 
+	width: 220px;
+	margin: 0 auto;
+	text-align: center;
+}
+.atas21 {
+	font-size: 20px;
+	border-bottom: 4px solid black;
+}
+.bawah2 {
+	/*background-color: #ccc;*/
+	width: 740px;
+	height: 160px;
+}
+.kiri {
+	float: left;
+	height: 160px;
+	width: 270px;
+	/*background-color: red;*/
+	text-align: center;
+}
+.kanan {
+	float: right;
+	height: 160px;
+	width: 460px;
+	/*background-color: blue;*/
+	text-align: center;
+}
+.kanan2 {
+	/*background-color: green;*/
+	width: 460px;
+	height: 40px;
+}
+.kanan21 {
+	float: left;
+	height: 40px;
+	width: 230px;
+	/*background-color: yellow;*/
+}
+.kanan22 {
+	float: left;
+	height: 40px;
+	width: 230px;
+	/*background-color: lime;*/
+}

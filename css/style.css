@@ -1,0 +1,136 @@
+body{
+	margin: 0;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	background-color: #ddd;
+}
+/*ScrollBar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+.sidebar .logo {
+	width: 90%;
+	padding-top: 5px;
+	padding-left: 8px;
+}
+.sidebar a {
+	display: block;
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+}
+.sidebar a:hover:not(.nothover){
+	background-color: lightskyblue;
+	color: white;
+}
+.item {
+	display: block;
+	margin-left: 10px;
+	padding: 5px;
+}
+.content {
+ 	margin-left: 200px;
+	padding: 1px 16px;
+}
+.header {
+	position: relative;
+	text-decoration: none;
+}
+.namapt {
+	position: relative;
+	font-size: 25px;
+	background-color: white;
+	width: 40%;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 40px;
+	border-bottom-right-radius: 100%;
+}
+.search {
+	margin-top: 5px;
+}
+.search input[type=text]{
+	width: 250px;
+	height: 30px;
+}
+.search input[type=submit] {
+	width: 50px;
+	height: 36px;
+}
+.main{
+    margin-top: 0.5em;
+    background-color: #feffff;
+    overflow: auto;
+    height: 630px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+}
+.tabel {
+	height: 100%;
+}
+.main td, th{
+    padding: 1em;
+}
+.main th{
+    background-color: lightskyblue;
+}
+.main a{
+    text-decoration: none;
+}
+.smallnotif {
+	height: 20px; 
+	width: 40%;
+    background-color: red;
+    color: white;
+    overflow: auto;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+    padding: 5px;
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+/*FORM INPUT*/
+.formcontain {
+	margin-left: 40px;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 1em;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 1em;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
